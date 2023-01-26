@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="/styles/style.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    
-    <script src="index.js"></script>
+    <header class="w-full h-12 bg-pink-500"></header>
 
+    <main class="lg:max-w-xl w-full mx-auto mt-8 px-7">
+      <form action="" class="flex items-center space-x-1.5" id="form">
+        <input type="text" class="w-full border border-black rounded-lg p-1" name="username"/>
+        <button type="submit" class="bg-sky-500 p-1.5 text-gray-50 rounded-lg">Search</button>
+      </form>
+
+      <div class="flex items-center space-x-4 mt-9">
+        <img src="" alt="" id="userimage" class="h-16 w-16 rounded-full">
+        <span id="username" class="text-xl text-gray-800"></span>
+      </div>
+
+      <ul id="list" class="space-y-6 mt-9">
+         
+      </ul>
+    </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
+
+
