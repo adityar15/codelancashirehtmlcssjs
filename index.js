@@ -124,6 +124,7 @@ window.addEventListener('load',()=>{
             return response.json()
         })
         .then((data)=>{
+            // the data here is different than the data above. the above data (line 119) is the data from the form
             // const avatar_url = data.avatar_url
             // const public_repos = data.public_repose
             // const followers = data.followers
